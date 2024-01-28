@@ -86,21 +86,30 @@ date_month = str(month_now) + "-" + str(date_now)
 
 
 ###---------------### LOGO ###--------------- ###
+logo=("""\033[1;37m
+  .d8b.  db   dD d888888b d8b   db  d888b 
+ d8' `8b 88 ,8P'   `88'   888o  88 88' Y8b
+ 88ooo88 88,8P      88    88V8o 88 88       \033[1;34m𝐏 \033[1;37m
+ 88~~~88 88`8b      88    88 V8o88 88  ooo.\033[1;31m 𝐑\033[1;37m
+ 88   88 88 `88.   .88.   88  V888 88. ~8~  \033[1;35m𝐎 \033[1;37m
+ YP   YP YP   YD Y888888P VP   V8P  Y888P   
+----------------------------------------------
+ Author    : IMTIAZ LKING
+ Github    : SHAMI110
+ Facebook  : MR.SHAMI
+ Tool Name : SHAMI-PRO
+ Type type : PAID
+ Version   : 1.9.8
+----------------------------------------------
+ SHAMI Pro version 1.9.8
+ For Haters: OKAT SA BAHAR
+\033[1;37m----------------------------------------------""")
+def linex():
+        print('\033[1;37m----------------------------------------------')
+def clear():
+        os.system('clear')
+        print(logo)
 
-
-lxgos = . """bgd   `7MMF'    db      `7MMF' `YMM' `7MM"""YMM MMP""MM""YMM MMM"""AMV `YMM'   `MM'
-.dP'     `M     MM     ;MM:       MM   .M'     MM    `7 P'   MM   `7 M'   AMV    VMA   ,V  
-dM'       `     MM    ,V^MM.      MM .d"       MM   d        MM      '   AMV      VMA ,V   
-MM              MM   ,M  `MM      MMMMM.       MMmmMM        MM         AMV        VMMP    
-MM.             MM   AbmmmqMA     MM  VMA      MM   Y  ,     MM        AMV   ,      MM     
-`Mb.     ,'(O)  MM  A'     VML    MM   `MM.    MM     ,M     MM       AMV   ,M      MM     
-  `"bmmmd'  Ymmm9 .AMA.   .AMMA..JMML.   MMb..JMMmmmmMMM   .JMML.    AMVmmmmMM    .JMML. "
-sinInfo = "[white][›] PRESS [bold yellow]CTRL AND Z[bold white] TO STOP THE PROGRAM\n\n[white][-] FACEBOOK : CHRISTIAN JAKE D. BEBAT\n[-] GITHUB   :https://github.com/HiroshiYTz
-
-def sintx_logo():
-    cmd(_D)
-    prnt(pnl(lxgos, title=f"{script_status}", subtitle="SHEESHHH !"))
-    prnt(pnl(sinInfo, width=90, style=_A))
 
 
 ###---------------### MENU ###--------------- ###
